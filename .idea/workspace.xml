@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11da39f6-0a38-4c08-9604-fcda9b55db35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/libs/captcha/fonts/Arial.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/libs/captcha/fonts/Georgia.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/libs/captcha/fonts/actionj.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/serializers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/libs/captcha/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/libs/captcha/captcha.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/utils/yuntongxun/CCPRestSDK.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/utils/yuntongxun/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/utils/yuntongxun/sms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/utils/yuntongxun/xmltojson.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/tasks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/utils/yuntongxun/CCPRestSDK.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/utils/yuntongxun/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/utils/yuntongxun/sms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/utils/yuntongxun/xmltojson.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/front_end_pc/js/axios-0.18.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/front_end_pc/js/host.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/models.py" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lshopping/front_end_pc/js/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/views.py" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/settings/dev.py" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/settings/dev.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/urls.py" afterPath="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lshopping/front_end_pc/js/register.js" afterPath="$PROJECT_DIR$/Lshopping/front_end_pc/js/register.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lshopping/front_end_pc/register.html" afterPath="$PROJECT_DIR$/Lshopping/front_end_pc/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lshopping/front_end_pc/login.html" afterPath="$PROJECT_DIR$/Lshopping/front_end_pc/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Projects$manage.coverage" NAME="manage Coverage Results" MODIFIED="1583415893490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lshopping/Lshopping" />
+    <SUITE FILE_PATH="coverage/Projects$manage.coverage" NAME="manage Coverage Results" MODIFIED="1583420064287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lshopping/Lshopping" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -62,22 +39,58 @@
       <file leaf-file-name="dev.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
+            <state relative-caret-position="229">
+              <caret line="219" column="1" lean-forward="false" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
               <folding>
-                <element signature="e#314#323#0" expanded="true" />
+                <element signature="e#313#328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lshopping/front_end_pc/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#1040#1314#0" expanded="false" />
+                <marker date="1583420064146" expanded="false" signature="627:916" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +101,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -103,20 +116,25 @@
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/__init__.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/utils/exceptions.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/urls.py" />
         <option value="$PROJECT_DIR$/Lshopping/front_end_pc/js/host.js" />
-        <option value="$PROJECT_DIR$/Lshopping/front_end_pc/js/register.js" />
         <option value="$PROJECT_DIR$/Lshopping/front_end_pc/register.html" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/serializers.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/constants.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/urls.py" />
-        <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/settings/dev.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/utils/yuntongxun/sms.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/config.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/main.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/celery_tasks/sms/tasks.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/views.py" />
+        <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/urls.py" />
         <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/Lshopping/front_end_pc/js/register.js" />
+        <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/serializers.py" />
+        <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/urls.py" />
+        <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/utils.py" />
+        <option value="$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/settings/dev.py" />
+        <option value="$PROJECT_DIR$/Lshopping/front_end_pc/js/login.js" />
+        <option value="$PROJECT_DIR$/Lshopping/front_end_pc/login.html" />
       </list>
     </option>
   </component>
@@ -179,22 +197,8 @@
               <option name="myItemId" value="Lshopping" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
+              <option name="myItemId" value="front_end_pc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,37 +216,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
+              <option name="myItemId" value="front_end_pc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,22 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,12 +542,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17981246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0027578599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.528616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.528616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -615,7 +577,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#314#323#0" expanded="true" />
+            <element signature="e#313#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -711,38 +673,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lshopping/front_end_pc/js/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#643#684#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,7 +720,7 @@
         <state relative-caret-position="75">
           <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -802,7 +738,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -812,28 +748,117 @@
         <state relative-caret-position="662">
           <caret line="83" column="70" lean-forward="true" selection-start-line="83" selection-start-column="70" selection-end-line="83" selection-end-column="70" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/verifications/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="e#643#684#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/8015305a/4b3224ab-5002-42f2-99ab-997e715b986d/Lshopping.tb_users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#1040#1314#0" expanded="false" />
+            <marker date="1583420064146" expanded="false" signature="627:916" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/front_end_pc/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="199" column="13" lean-forward="true" selection-start-line="199" selection-start-column="13" selection-end-line="199" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lshopping/front_end_pc/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="91" column="3" lean-forward="false" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
+        <state relative-caret-position="229">
+          <caret line="219" column="1" lean-forward="false" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
           <folding>
-            <element signature="e#314#323#0" expanded="true" />
+            <element signature="e#313#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lshopping/Lshopping/Lshopping/apps/users/views.py">
+    <entry file="file://$PROJECT_DIR$/Lshopping/front_end_pc/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="370">
+          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
