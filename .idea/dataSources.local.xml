@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Lshopping@localhost" uuid="4b3224ab-5002-42f2-99ab-997e715b986d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>Lshopping</user-name>
+    </data-source>
+  </component>
+</project>

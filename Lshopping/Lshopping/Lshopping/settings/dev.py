@@ -28,7 +28,7 @@ SECRET_KEY = '4(8020bfgxau^ep2d&!kwnzk%2iha*a-zb#v%2474r3z-)k5jh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api.lshopping.site', '127.0.0.1', 'localhost', 'www.lshopping.site']
 
 
 # Application definition
@@ -41,10 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
     'users.apps.UsersConfig'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -81,7 +83,7 @@ WSGI_APPLICATION = 'Lshopping.wsgi.application'
 DATABASES = {
       'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '192.168.174.140',  # 数据库主机
+        'HOST': '127.0.0.1',  # 数据库主机
         'PORT': 3306,  # 数据库端口
         'USER': 'Lshopping',  # 数据库用户名
         'PASSWORD': 'Lshopping',  # 数据库用户密码
@@ -92,18 +94,25 @@ DATABASES = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.174.140:6379/0",
+        "LOCATION": "redis://127.0.0.1:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
     "session": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.174.140:6379/1",
+        "LOCATION": "redis://127.0.0.1:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    "verify_codes": {
+            "BACKEND": "django_redis.cache.RedisCache",
+            "LOCATION": "redis://127.0.0.1:6379/2",
+            "OPTIONS": {
+                "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            }
+        }
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
@@ -191,3 +200,16 @@ REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'Lshopping.utils.exceptions.exception_handler',
 }
+# user模型类
+AUTH_USER_MODEL = 'users.User'
+
+
+# CORS
+CORS_ORIGIN_WHITELIST = (
+    'http://127.0.0.1:8080',
+    'http://localhost:8080',
+    'http://www.lshopping.site:8080',
+    'http://api.lshopping.site:8000',
+)
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
