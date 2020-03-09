@@ -1,16 +1,10 @@
-from celery_tasks.main import celery_app
 from django.core.mail import send_mail
 from django.conf import settings
+from celery_tasks.main import celery_app
 
 
-@celery_app.task(name='send_verify_email')
-def send_verify_email(to_email, verify_url):
-    """
-    发送验证邮箱邮件
-    :param to_email: 收件人邮箱
-    :param verify_url: 验证链接
-    :return: None
-    """
+@celery_app.task(name='send_active_email')
+def send_active_email(to_email, verify_url):
     subject = "美多商城邮箱验证"
     html_message = '<p>尊敬的用户您好！</p>' \
                    '<p>感谢您使用美多商城。</p>' \

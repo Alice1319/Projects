@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
     'oauth.apps.OauthConfig',
+    'areas.apps.AreasConfig',
+    'contents.apps.ContentsConfig',
+    'goods.apps.GoodsConfig',
 ]
 
 MIDDLEWARE = [
@@ -249,4 +252,13 @@ EMAIL_HOST_USER = 'alice_lai1319@163.com'
 EMAIL_HOST_PASSWORD = 'XSG521xsg'
 #收件人看到的发件人
 EMAIL_FROM = 'python<alice_lai1319@163.com>'
+
+
+# DRF扩展
+REST_FRAMEWORK_EXTENSIONS = {
+    # 缓存时间
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 60 * 60,
+    # 缓存存储
+    'DEFAULT_USE_CACHE': 'default',
+}
 
